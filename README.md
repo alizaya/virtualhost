@@ -23,7 +23,7 @@ $ sudo cp /path/to/virtualhost.sh /usr/local/bin/virtualhost
 
 ```bash
  sudo wget -O /usr/local/bin/virtualhost https://raw.githubusercontent.com/alizaya/virtualhost/master/virtualhost.sh && sudo chmod +x /usr/local/bin/virtualhost
- sudo wget -O /usr/local/bin/virtualhost https://raw.githubusercontent.com/alizaya/virtualhost/master/virtualhost-nginx.sh && sudo chmod +x /usr/local/bin/virtualhost-nginx 
+ sudo wget -O /usr/local/bin/virtualhost-nginx https://raw.githubusercontent.com/alizaya/virtualhost/master/virtualhost-nginx.sh && sudo chmod +x /usr/local/bin/virtualhost-nginx 
 ```
 
 ## Usage ##
