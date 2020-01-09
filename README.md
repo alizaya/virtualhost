@@ -22,11 +22,8 @@ $ sudo cp /path/to/virtualhost.sh /usr/local/bin/virtualhost
 ### For Global Shortcut ###
 
 ```bash
-$ cd /usr/local/bin
-$ wget -O virtualhost https://raw.githubusercontent.com/alizaya/virtualhost/master/virtualhost.sh
-$ chmod +x virtualhost
-$ wget -O virtualhost-nginx https://raw.githubusercontent.com/alizaya/virtualhost/master/virtualhost-nginx.sh
-$ chmod +x virtualhost-nginx
+ sudo wget -O /usr/local/bin/virtualhost https://raw.githubusercontent.com/alizaya/virtualhost/master/virtualhost.sh && sudo chmod +x /usr/local/bin/virtualhost
+ sudo wget -O /usr/local/bin/virtualhost https://raw.githubusercontent.com/alizaya/virtualhost/master/virtualhost-nginx.sh && sudo chmod +x /usr/local/bin/virtualhost-nginx 
 ```
 
 ## Usage ##
